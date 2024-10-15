@@ -1,8 +1,8 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Лабараторная работа №03. НПИбд-03-24"
+subtitle: "Подготовил:"
+author: "Гелдиев Ыхлас. Студенческий номер: 1032249184"
 
 ## Generic otions
 lang: ru-RU
@@ -74,23 +74,31 @@ header-includes:
 
 # Выполнение лабораторной работы
 
-![open terminal](image/open_terminal.png){#fig:001 width=100%}
 1 Открыл терминал (рис. [-@fig:001])
 
-![goto arch-pc](image/goto_arch-pc.png){#fig:002 width=100%}
-![git pull](image/git_pull.png){#fig:003 width=100%}
+![Открытие терминал](image/open_terminal.jpg){#fig:001 width=100%}
+
 2 Перешел в каталог курса и обновил локальный репозиторий (рис. [-@fig:002]) (рис. [-@fig:003])
 
-![went to report](image/goto_report.png){#fig:004 width=100%}
+![Переход в arch-pc](image/goto_arch-pc.jpg){#fig:002 width=100%}
+
+![git pull](image/git_pull.jpg){#fig:003 width=100%}
+
 3 Перешел в каталог отчета по лабораторной работе № 3 (рис. [-@fig:004])
 
-![make](image/make_1.png){#fig:005 width=100%}
+![Перешел в отчет](image/goto_report.jpg){#fig:004 width=100%}
+
+
+![make](image/make_1.jpg){#fig:005 width=100%}
+
 4 Провел компиляцию шаблона с использованием Makefile (рис. [-@fig:005])
 
-![make clean](image/make_clean.png){#fig:006 width=100%}
+![make clean](image/make_clean.jpg){#fig:006 width=100%}
+
 5 Удалил файлы созданные make и убедился в этом используя ls (рис. [-@fig:006])
 
-![report.md](image/report_md.png){#fig:007 width=100%}
+![открыте файла report.md](image/report_md.jpg){#fig:007 width=100%}
+
 6 Открыл файл report.md и внимательно изучил его (рис. [-@fig:007])
 
 # Выводы
